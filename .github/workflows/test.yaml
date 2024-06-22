@@ -2,7 +2,7 @@ name: Testing React Application
 on: push
 jobs:
   testing:
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
     steps:
       - name: code checkout
         uses: actions/checkout@v3
